@@ -28,10 +28,22 @@ export const USER_PROGRAMS = [
       daily_calories: "1,600 calories",
       macros: { protein: "30%", carbs: "40%", fats: "30%" },
       meal_examples: [
-        { meal: "Breakfast", example: "Oatmeal with almond milk, berries, and chia seeds" },
-        { meal: "Lunch", example: "Grilled chicken salad with olive oil dressing" },
-        { meal: "Dinner", example: "Baked salmon with quinoa and roasted vegetables" },
-        { meal: "Snacks", example: "Apple with almond butter, dairy-free yogurt with nuts" },
+        {
+          meal: "Breakfast",
+          example: "Oatmeal with almond milk, berries, and chia seeds",
+        },
+        {
+          meal: "Lunch",
+          example: "Grilled chicken salad with olive oil dressing",
+        },
+        {
+          meal: "Dinner",
+          example: "Baked salmon with quinoa and roasted vegetables",
+        },
+        {
+          meal: "Snacks",
+          example: "Apple with almond butter, dairy-free yogurt with nuts",
+        },
       ],
       description:
         "This meal plan avoids dairy products while providing balanced nutrition to support weight loss goals. Focus is on whole foods with adequate protein to preserve muscle during weight loss.",
@@ -67,10 +79,22 @@ export const USER_PROGRAMS = [
       daily_calories: "2,800 calories",
       macros: { protein: "30%", carbs: "50%", fats: "20%" },
       meal_examples: [
-        { meal: "Breakfast", example: "Protein oatmeal with banana and whey protein" },
-        { meal: "Lunch", example: "Chicken, rice, and vegetables with olive oil" },
-        { meal: "Dinner", example: "Steak with sweet potato and green vegetables" },
-        { meal: "Snacks", example: "Protein shake with fruit, Greek yogurt with honey" },
+        {
+          meal: "Breakfast",
+          example: "Protein oatmeal with banana and whey protein",
+        },
+        {
+          meal: "Lunch",
+          example: "Chicken, rice, and vegetables with olive oil",
+        },
+        {
+          meal: "Dinner",
+          example: "Steak with sweet potato and green vegetables",
+        },
+        {
+          meal: "Snacks",
+          example: "Protein shake with fruit, Greek yogurt with honey",
+        },
       ],
       description:
         "This high-protein, calorie-surplus diet supports muscle growth while minimizing fat gain. Carbohydrates are timed around workouts for optimal performance and recovery.",
@@ -104,10 +128,19 @@ export const USER_PROGRAMS = [
       daily_calories: "1,800 calories",
       macros: { protein: "25%", carbs: "50%", fats: "25%" },
       meal_examples: [
-        { meal: "Breakfast", example: "Tofu scramble with vegetables and whole grain toast" },
+        {
+          meal: "Breakfast",
+          example: "Tofu scramble with vegetables and whole grain toast",
+        },
         { meal: "Lunch", example: "Lentil soup with mixed green salad" },
-        { meal: "Dinner", example: "Chickpea curry with brown rice and vegetables" },
-        { meal: "Snacks", example: "Mixed nuts, hummus with vegetables, protein smoothie" },
+        {
+          meal: "Dinner",
+          example: "Chickpea curry with brown rice and vegetables",
+        },
+        {
+          meal: "Snacks",
+          example: "Mixed nuts, hummus with vegetables, protein smoothie",
+        },
       ],
       description:
         "This vegetarian meal plan ensures adequate protein intake from plant sources. It focuses on whole foods and supports your active lifestyle while accommodating knee issues with anti-inflammatory food choices.",

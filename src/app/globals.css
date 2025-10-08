@@ -41,6 +41,16 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  /* Add your custom cyberpunk colors */
+  --color-cyber-black: var(--cyber-black);
+  --color-cyber-dark: var(--cyber-dark);
+  --color-cyber-blue-bright: var(--cyber-blue-bright);
+  --color-cyber-blue: var(--cyber-blue);
+  --color-cyber-blue-dark: var(--cyber-blue-dark);
+  --color-cyber-blue-glow: var(--cyber-blue-glow);
+  --color-cyber-accent: var(--cyber-accent);
+  --color-cyber-terminal-bg: var(--cyber-terminal-bg);
 }
 
 :root {
