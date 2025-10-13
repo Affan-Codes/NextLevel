@@ -42,15 +42,22 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  /* Add your custom cyberpunk colors */
-  --color-cyber-black: var(--cyber-black);
-  --color-cyber-dark: var(--cyber-dark);
-  --color-cyber-blue-bright: var(--cyber-blue-bright);
-  --color-cyber-blue: var(--cyber-blue);
-  --color-cyber-blue-dark: var(--cyber-blue-dark);
-  --color-cyber-blue-glow: var(--cyber-blue-glow);
-  --color-cyber-accent: var(--cyber-accent);
-  --color-cyber-terminal-bg: var(--cyber-terminal-bg);
+  /* Cyberpunk colors as proper Tailwind color tokens */
+  --color-cyber-black: #000000;
+  --color-cyber-dark: #0a0c14;
+  --color-cyber-blue-bright: #18cef2;
+  --color-cyber-blue: #1089bd;
+  --color-cyber-blue-dark: #0b4a7d;
+  --color-cyber-blue-glow: #38bdf8;
+  --color-cyber-accent: #0ff4;
+  --color-cyber-terminal-bg: rgba(0, 0, 0, 0.7);
+  --color-cyber-grid: rgba(24, 206, 242, 0.05);
+  --color-cyber-glow-primary: rgba(24, 206, 242, 0.2);
+  --color-cyber-glow-strong: rgba(24, 206, 242, 0.5);
+  --color-cyber-line: rgba(24, 206, 242, 0.3);
+  --color-cyber-text-bright: #ffffff;
+  --color-cyber-text-muted: rgba(242, 242, 242, 0.7);
+  --color-cyber-text-dim: rgba(242, 242, 242, 0.5);
 }
 
 :root {
@@ -200,7 +207,6 @@
   }
 }
 
-/* TODO: EXPLAIN THIS BC U PROMISED JUST IN THE FIRST SECTION */
 @keyframes slow-spin {
   from {
     transform: rotate(0deg);
